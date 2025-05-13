@@ -1,12 +1,12 @@
-# 🔍 Misinformation Detector – Real-Time AI Claim Verification
+# Misinformation Detector – Real-Time AI Claim Verification
 
 This project is a real-time, explainable system designed to detect **misinformation in AI-generated text**. It combines the power of **LLMs (like GPT-3.5)** with **fact-checking APIs**, **knowledge graph queries**, and **semantic similarity models** to classify claims as either **Reliable** or **Misinformation**, along with a confidence score and detailed breakdown of reasoning.
 
-**Live Demo**: [Watch the 5-minute project demo on YouTube](https://youtu.be/your-demo-link-here)
+**Live Demo**: [Watch the 5-minute project demo on YouTube]([https://youtu.be/your-demo-link-here](https://youtu.be/-CFxmBYdRyM?si=Li5cp1067pwhGuC7))
 
 ---
 
-## 🧠 Features
+## Features
 
 - Claim-level misinformation detection
 - LLM-based semantic similarity (Sentence-BERT)
@@ -18,17 +18,17 @@ This project is a real-time, explainable system designed to detect **misinformat
 
 ---
 
-## 📷 Demo Screenshots
+## Demo Screenshots
 
-| Reliable Claim | Misinformation | Semantic Match |
-|----------------|----------------|----------------|
-| ![s1](screenshots/screenshot1.png) | ![s2](screenshots/screenshot2.png) | ![s3](screenshots/screenshot3.png) |
+| Reliable Claim | Misinformation |
+|----------------|----------------|
+| ![s1](screenshots/screenshot1.png) | ![s2](screenshots/screenshot2.png) |
 
 > *(Place your actual screenshots inside a `/screenshots` folder in your repo)*
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Input Claim**  
    User submits a natural-language factual claim.
@@ -47,9 +47,9 @@ This project is a real-time, explainable system designed to detect **misinformat
 
 ---
 
-## 🚀 Getting Started Locally
+## Getting Started Locally
 
-### 🛠️ Installation
+### Installation
 
 1. Clone the repository:
    ```bash
@@ -73,7 +73,7 @@ This project is a real-time, explainable system designed to detect **misinformat
    - `phase5_claims.json`
    - `phase5_embeddings.npy`
 
-### ▶️ Run the App
+### Run the App
 ```bash
 streamlit run app.py
 ```
@@ -81,7 +81,7 @@ Then visit `http://localhost:8501` in your browser.
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```bash
 .
@@ -96,7 +96,7 @@ Then visit `http://localhost:8501` in your browser.
 
 ---
 
-## 📊 Tech Stack
+## Tech Stack
 
 - **Streamlit** – for interactive web app
 - **Transformers (HuggingFace)** – for stance detection
@@ -106,14 +106,7 @@ Then visit `http://localhost:8501` in your browser.
 
 ---
 
-## 🎩 YouTube Video Demo
-
-Watch the full 5-minute walkthrough of the project here:  
-[https://youtu.be/your-demo-link-here](https://youtu.be/your-demo-link-here)
-
----
-
-## 🤝 Acknowledgements
+## Acknowledgements
 
 - OpenAI GPT-3.5 (for claim extraction & guidance)
 - HuggingFace Transformers
@@ -125,6 +118,6 @@ Watch the full 5-minute walkthrough of the project here:
 
 ---
 
-## 📜 License
+## License
 
 This project is for educational purposes only. All data and model outputs are used in accordance with academic fair use.
