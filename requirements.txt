@@ -1,0 +1,11 @@
+# Core ML requirements
+scikit-learn==1.6.1
+pandas==2.2.2
+numpy==2.0.2
+joblib==1.4.2
+streamlit==1.36.0
+
+# NLP processing
+transformers==4.41.2
+sentence-transformers==2.7.0
+torch==2.3.0
