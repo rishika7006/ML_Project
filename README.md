@@ -2,7 +2,7 @@
 
 This project is a real-time, explainable system designed to detect **misinformation in AI-generated text**. It combines the power of **LLMs (like GPT-3.5)** with **fact-checking APIs**, **knowledge graph queries**, and **semantic similarity models** to classify claims as either **Reliable** or **Misinformation**, along with a confidence score and detailed breakdown of reasoning.
 
-**Live Demo**: [Watch the 5-minute project demo on YouTube]([https://youtu.be/-CFxmBYdRyM?si=Li5cp1067pwhGuC7])
+**Live Demo**: [Watch the 5-minute project demo on YouTube](https://youtu.be/-CFxmBYdRyM?si=Li5cp1067pwhGuC7)
 
 ---
 
@@ -35,7 +35,7 @@ This project is a real-time, explainable system designed to detect **misinformat
    System checks similarity to known verified claims and searches knowledge bases.
 
 3. **Fallback Model**  
-   The system estimates stance, semantic consistency, and source quality if no match is found.
+   If no match is found, the system estimates stance, semantic consistency, and source quality.
 
 4. **Classification**  
    Outputs a label: `Reliable` ✅ or `Misinformation` ❌ with confidence %.
