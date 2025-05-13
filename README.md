@@ -22,22 +22,20 @@ This project is a real-time, explainable system designed to detect **misinformat
 
 | Reliable Claim | Misinformation |
 |----------------|----------------|
-| ![s1](screenshots/screenshot1.png) | ![s2](screenshots/screenshot2.png) |
-
-> *(Place your actual screenshots inside a `/screenshots` folder in your repo)*
+| ![s1](screenshots/reliable.png) | ![s2](screenshots/misinfo.png) |
 
 ---
 
 ## How It Works
 
 1. **Input Claim**  
-   User submits a natural-language factual claim.
+   The user submits a natural-language factual claim.
 
 2. **Semantic Matching & Verification**  
    System checks similarity to known verified claims and searches knowledge bases.
 
 3. **Fallback Model**  
-   If no match is found, system estimates stance, semantic consistency, and source quality.
+   The system estimates stance, semantic consistency, and source quality if no match is found.
 
 4. **Classification**  
    Outputs a label: `Reliable` ✅ or `Misinformation` ❌ with confidence %.
